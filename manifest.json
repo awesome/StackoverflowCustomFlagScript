@@ -1,0 +1,13 @@
+{
+  "name": "SO - CustomFlagScript",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Script to modify meta.stackoverflow and stackoverflow",
+  "content_scripts": [
+    {
+      "matches": ["http://stackoverflow.com/*","http://meta.stackoverflow.com/*","http://*.stackexchange.com/*"],
+      "js": ["flagger.js"],
+      "css": ["flagger.css"]
+    }
+  ]
+}
