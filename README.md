@@ -81,7 +81,7 @@ The JavaScript:
     
     if (rep>2000){
       $.get(review_url, function(result) {
-        var rcount = $(result).find('.review-dashboard-mainbar div:nth-child(3) .dashboard-num').text();
+        var rcount = $(result).find('.review-dashboard-mainbar div:nth-child(2) .dashboard-num').text();
     rcount = 12;
         if (rcount.length !== 0) {
           $('.topbar-menu-links [href="/review"]').after('<a id="review-items"><span></span></a>');
