@@ -94,7 +94,7 @@ The JavaScript:
       $.get(tools_url, function(result) {
         var tcount = $(result).find('.bounty-indicator-tab').text();
         $('.topbar-menu-links').prepend('<a id="review-tools-link"><span></span></a>');
-        $('#review-tools-link').attr('href',tools_url).children('span').html(tcount-1);
+        $('#review-tools-link').attr('href',tools_url).children('span').html(tcount);
       });
     }
     
