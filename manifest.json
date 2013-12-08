@@ -6,8 +6,8 @@
   "content_scripts": [
     {
       "matches": ["http://stackoverflow.com/*","http://meta.stackoverflow.com/*","http://*.stackexchange.com/*"],
-      "js": ["flagger.js"],
-      "css": ["flagger.css"]
+      "js": ["script.js"],
+      "css": ["style.css"]
     }
   ]
 }
