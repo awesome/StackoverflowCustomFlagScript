@@ -25,12 +25,6 @@ if (rep>10000){
     $('.topbar-menu-links').prepend('<a id="review-tools-link"><span></span></a>');
     $('#review-tools-link').attr('href',tools_url).children('span').html(tcount-1);
   });
-  if(window.location.href.indexOf(tools_url) > -1) {
-    $('.tools-rev h1').append('<a id="toggleFlag">Toggle Sort function</a>');
-    $('#toggleFlag').click(function(){
-      $('tr[id*="flagged"]:not(:has(.item-multiplier-count))').toggleClass('removed_reviews');
-    });
-  }
 }
 
 });
