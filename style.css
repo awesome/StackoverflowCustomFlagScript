@@ -1,25 +1,25 @@
 #review-tools-link span {
-    color: #fff!important;
-    background-color: #0077dd;
-    font-size: 90%;
-    font-weight: bold;
-    margin-right: 5px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    margin: 0;
-    padding: 3px;
+  color: #fff!important;
+  background-color: #0077dd;
+  font-size: 90%;
+  font-weight: bold;
+  margin-right: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0;
+  padding: 3px;
 }
 
 #review-items span {
-    color: #fff!important;
-    background-color: red;
-    font-size: 90%;
-    font-weight: bold;
-    margin-right: 5px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    margin: 0;
-    padding: 3px;
+  color: #fff!important;
+  background-color: red;
+  font-size: 90%;
+  font-weight: bold;
+  margin-right: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0;
+  padding: 3px;
 }
