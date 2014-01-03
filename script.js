@@ -12,7 +12,7 @@ if (rep > 2000){
     var rcount = $(result).find('.review-dashboard-mainbar .dashboard-item:has(.dashboard-title a[href="/review/suggested-edits"]) .dashboard-num').text();
     if (rcount.length !== 0) {
       $('.topbar-menu-links [href="/review"]').after('<a id="review-items"><span></span></a>');
-      $('#review-items').attr('href',review_url).children('span').html(rcount);
+      $('#review-items').attr('href', '/review').children('span').html(rcount);
     }
   });
 }
@@ -21,7 +21,7 @@ if (rep > 10000){
   $.get('/tools', function(result) {
     var tcount = $(result).find('.bounty-indicator-tab').text();
     $('.topbar-menu-links').prepend('<a id="review-tools-link"><span></span></a>');
-    $('#review-tools-link').attr('href',tools_url).children('span').html(tcount);
+    $('#review-tools-link').attr('href', '/tools').children('span').html(tcount);
   });
 }
 
